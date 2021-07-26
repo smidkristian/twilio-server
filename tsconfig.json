@@ -16,7 +16,9 @@
   },
   "include": [
     "./src/**/*.ts",
-    "./scripts/**/*.ts"
+    "./scripts/**/*.ts",
+    "tests/main.ts", "tests/bar.ts",
+    "./apollo/room/typeDefs.ts"
   ],
   "exclude": [
     "./node_modules",

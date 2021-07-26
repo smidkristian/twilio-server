@@ -23,8 +23,13 @@
     "clean": "concurrently 'rm -rf dist' 'rm -rf coverage'"
   },
   "dependencies": {
+    "apollo-server": "^3.0.2",
     "dotenv": "^8.2.0",
-    "lodash": "^4.17.21"
+    "graphql": "^15.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.3",
+    "twilio": "^3.66.0",
+    "uuidv4": "^6.2.11"
   },
   "devDependencies": {
     "@types/jest": "26.0.21",
